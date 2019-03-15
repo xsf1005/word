@@ -25,8 +25,8 @@ public class TestDoc {
 		}
 		Table t = dp.addBaseTable(titles, lst);
 		Image img1 = dp.addImage("pic/IMG_1025.JPG");
-		Image img2 = dp.addImage("pic/IMG_1026.PNG");
+		Image img2 = dp.addImage("pic/cpu.PNG");
 		Paragraph context = dp.addParagraph("Hello World!",10,10);
-		dp.writeDoc("doc/test.doc", t,context,img1,img2);
+		dp.writeDoc("doc/test.doc", t,context,img2,img1);
 	}
 }
